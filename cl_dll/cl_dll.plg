@@ -1,0 +1,422 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cl_dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /I "..\utils\vgui\include" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\dlls" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR".\Release/" /Fp".\Release/cl_dll.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\gwsource\cl_dll\ammo.cpp"
+"C:\gwsource\cl_dll\ammo_secondary.cpp"
+"C:\gwsource\cl_dll\ammohistory.cpp"
+"C:\gwsource\cl_dll\battery.cpp"
+"C:\gwsource\cl_dll\cdll_int.cpp"
+"C:\gwsource\cl_dll\com_weapons.cpp"
+"C:\gwsource\cl_dll\death.cpp"
+"C:\gwsource\cl_dll\demo.cpp"
+"C:\gwsource\cl_dll\entity.cpp"
+"C:\gwsource\cl_dll\ev_common.cpp"
+"C:\gwsource\cl_dll\events.cpp"
+"C:\gwsource\cl_dll\flashlight.cpp"
+"C:\gwsource\cl_dll\GameStudioModelRenderer.cpp"
+"C:\gwsource\cl_dll\geiger.cpp"
+"C:\gwsource\cl_dll\health.cpp"
+"C:\gwsource\cl_dll\hud.cpp"
+"C:\gwsource\cl_dll\hud_msg.cpp"
+"C:\gwsource\cl_dll\hud_redraw.cpp"
+"C:\gwsource\cl_dll\hud_servers.cpp"
+"C:\gwsource\cl_dll\hud_update.cpp"
+"C:\gwsource\cl_dll\in_camera.cpp"
+"C:\gwsource\cl_dll\input.cpp"
+"C:\gwsource\cl_dll\inputw32.cpp"
+"C:\gwsource\cl_dll\menu.cpp"
+"C:\gwsource\cl_dll\message.cpp"
+"C:\gwsource\cl_dll\parsemsg.cpp"
+"C:\gwsource\pm_shared\pm_debug.c"
+"C:\gwsource\pm_shared\pm_math.c"
+"C:\gwsource\pm_shared\pm_shared.c"
+"C:\gwsource\cl_dll\saytext.cpp"
+"C:\gwsource\cl_dll\sdk_c_radar.cpp"
+"C:\gwsource\cl_dll\sdk_e_main.cpp"
+"C:\gwsource\cl_dll\sdk_e_menu.cpp"
+"C:\gwsource\cl_dll\sdk_gui_actions.cpp"
+"C:\gwsource\cl_dll\sdk_gui_admin.cpp"
+"C:\gwsource\cl_dll\sdk_gui_mapvote.cpp"
+"C:\gwsource\cl_dll\sdk_gui_stats.cpp"
+"C:\gwsource\cl_dll\sdk_hud.cpp"
+"C:\gwsource\cl_dll\sdk_hud_money.cpp"
+"C:\gwsource\cl_dll\sdk_u_mp3.cpp"
+"C:\gwsource\cl_dll\status_icons.cpp"
+"C:\gwsource\cl_dll\statusbar.cpp"
+"C:\gwsource\cl_dll\studio_util.cpp"
+"C:\gwsource\cl_dll\StudioModelRenderer.cpp"
+"C:\gwsource\cl_dll\text_message.cpp"
+"C:\gwsource\cl_dll\train.cpp"
+"C:\gwsource\cl_dll\tri.cpp"
+"C:\gwsource\cl_dll\util.cpp"
+"C:\gwsource\cl_dll\vgui_ConsolePanel.cpp"
+"C:\gwsource\cl_dll\vgui_ControlConfigPanel.cpp"
+"C:\gwsource\cl_dll\vgui_CustomObjects.cpp"
+"C:\gwsource\cl_dll\vgui_int.cpp"
+"C:\gwsource\cl_dll\vgui_SchemeManager.cpp"
+"C:\gwsource\cl_dll\vgui_ScorePanel.cpp"
+"C:\gwsource\cl_dll\vgui_ServerBrowser.cpp"
+"C:\gwsource\cl_dll\vgui_TeamFortressViewport.cpp"
+"C:\gwsource\cl_dll\view.cpp"
+"C:\gwsource\cl_dll\ev_hldm.cpp"
+"C:\gwsource\cl_dll\hl\hl_baseentity.cpp"
+"C:\gwsource\cl_dll\hl\hl_events.cpp"
+"C:\gwsource\cl_dll\hl\hl_objects.cpp"
+"C:\gwsource\cl_dll\hl\hl_weapons.cpp"
+"C:\gwsource\dlls\sdk_w_ak47.cpp"
+"C:\gwsource\dlls\sdk_w_aug.cpp"
+"C:\gwsource\dlls\sdk_w_deagle.cpp"
+"C:\gwsource\cl_dll\sdk_w_events.cpp"
+"C:\gwsource\dlls\sdk_w_glock.cpp"
+"C:\gwsource\dlls\sdk_w_m16.cpp"
+"C:\gwsource\dlls\sdk_w_mac10.cpp"
+"C:\gwsource\dlls\sdk_w_matrix.cpp"
+"C:\gwsource\dlls\sdk_w_mp5.cpp"
+"C:\gwsource\dlls\sdk_w_p228.cpp"
+"C:\gwsource\dlls\sdk_w_sg550.cpp"
+"C:\gwsource\dlls\sdk_w_sg552.cpp"
+"C:\gwsource\dlls\sdk_w_tmp.cpp"
+"C:\gwsource\dlls\sdk_w_ump45.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib winmm.lib ../utils/vgui/lib/win32_vc6/vgui.lib wsock32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:".\Release/client.pdb" /machine:I386 /out:".\DLL_Release\client.dll" /implib:".\Release/client.lib" 
+.\Release\ammo.obj
+.\Release\ammo_secondary.obj
+.\Release\ammohistory.obj
+.\Release\battery.obj
+.\Release\cdll_int.obj
+.\Release\com_weapons.obj
+.\Release\death.obj
+.\Release\demo.obj
+.\Release\entity.obj
+.\Release\ev_common.obj
+.\Release\events.obj
+.\Release\flashlight.obj
+.\Release\GameStudioModelRenderer.obj
+.\Release\geiger.obj
+.\Release\health.obj
+.\Release\hud.obj
+.\Release\hud_msg.obj
+.\Release\hud_redraw.obj
+.\Release\hud_servers.obj
+.\Release\hud_update.obj
+.\Release\in_camera.obj
+.\Release\input.obj
+.\Release\inputw32.obj
+.\Release\menu.obj
+.\Release\message.obj
+.\Release\parsemsg.obj
+.\Release\pm_debug.obj
+.\Release\pm_math.obj
+.\Release\pm_shared.obj
+.\Release\saytext.obj
+.\Release\sdk_c_radar.obj
+.\Release\sdk_e_main.obj
+.\Release\sdk_e_menu.obj
+.\Release\sdk_gui_actions.obj
+.\Release\sdk_gui_admin.obj
+.\Release\sdk_gui_mapvote.obj
+.\Release\sdk_gui_stats.obj
+.\Release\sdk_hud.obj
+.\Release\sdk_hud_money.obj
+.\Release\sdk_u_mp3.obj
+.\Release\status_icons.obj
+.\Release\statusbar.obj
+.\Release\studio_util.obj
+.\Release\StudioModelRenderer.obj
+.\Release\text_message.obj
+.\Release\train.obj
+.\Release\tri.obj
+.\Release\util.obj
+.\Release\vgui_ConsolePanel.obj
+.\Release\vgui_ControlConfigPanel.obj
+.\Release\vgui_CustomObjects.obj
+.\Release\vgui_int.obj
+.\Release\vgui_SchemeManager.obj
+.\Release\vgui_ScorePanel.obj
+.\Release\vgui_ServerBrowser.obj
+.\Release\vgui_TeamFortressViewport.obj
+.\Release\view.obj
+.\Release\ev_hldm.obj
+.\Release\hl_baseentity.obj
+.\Release\hl_events.obj
+.\Release\hl_objects.obj
+.\Release\hl_weapons.obj
+.\Release\sdk_w_ak47.obj
+.\Release\sdk_w_aug.obj
+.\Release\sdk_w_deagle.obj
+.\Release\sdk_w_events.obj
+.\Release\sdk_w_glock.obj
+.\Release\sdk_w_m16.obj
+.\Release\sdk_w_mac10.obj
+.\Release\sdk_w_matrix.obj
+.\Release\sdk_w_mp5.obj
+.\Release\sdk_w_p228.obj
+.\Release\sdk_w_sg550.obj
+.\Release\sdk_w_sg552.obj
+.\Release\sdk_w_tmp.obj
+.\Release\sdk_w_ump45.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP28.tmp"
+<h3>Output Window</h3>
+Compiling...
+ammo.cpp
+ammo_secondary.cpp
+ammohistory.cpp
+battery.cpp
+cdll_int.cpp
+com_weapons.cpp
+death.cpp
+demo.cpp
+entity.cpp
+ev_common.cpp
+events.cpp
+flashlight.cpp
+GameStudioModelRenderer.cpp
+geiger.cpp
+health.cpp
+hud.cpp
+hud_msg.cpp
+hud_redraw.cpp
+hud_servers.cpp
+hud_update.cpp
+in_camera.cpp
+input.cpp
+inputw32.cpp
+menu.cpp
+message.cpp
+parsemsg.cpp
+pm_debug.c
+pm_math.c
+pm_shared.c
+saytext.cpp
+sdk_c_radar.cpp
+sdk_e_main.cpp
+sdk_e_menu.cpp
+sdk_gui_actions.cpp
+sdk_gui_admin.cpp
+sdk_gui_mapvote.cpp
+sdk_gui_stats.cpp
+sdk_hud.cpp
+sdk_hud_money.cpp
+sdk_u_mp3.cpp
+status_icons.cpp
+statusbar.cpp
+studio_util.cpp
+StudioModelRenderer.cpp
+text_message.cpp
+train.cpp
+tri.cpp
+util.cpp
+vgui_ConsolePanel.cpp
+vgui_ControlConfigPanel.cpp
+vgui_CustomObjects.cpp
+vgui_int.cpp
+vgui_SchemeManager.cpp
+vgui_ScorePanel.cpp
+vgui_ServerBrowser.cpp
+vgui_TeamFortressViewport.cpp
+view.cpp
+ev_hldm.cpp
+hl_baseentity.cpp
+hl_events.cpp
+hl_objects.cpp
+hl_weapons.cpp
+sdk_w_ak47.cpp
+sdk_w_aug.cpp
+sdk_w_deagle.cpp
+sdk_w_events.cpp
+..\dlls\player.h(160) : error C2504: 'CBaseMonster' : base class undefined
+..\dlls\player.h(219) : error C2146: syntax error : missing ';' before identifier 'm_fInitHUD'
+..\dlls\player.h(219) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(219) : error C2501: 'm_fInitHUD' : missing storage-class or type specifiers
+..\dlls\player.h(220) : error C2146: syntax error : missing ';' before identifier 'm_fGameHUDInitialized'
+..\dlls\player.h(220) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(220) : error C2501: 'm_fGameHUDInitialized' : missing storage-class or type specifiers
+..\dlls\player.h(222) : error C2146: syntax error : missing ';' before identifier 'm_fWeapon'
+..\dlls\player.h(222) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(222) : error C2501: 'm_fWeapon' : missing storage-class or type specifiers
+..\dlls\player.h(224) : error C2146: syntax error : missing ';' before identifier 'm_pTank'
+..\dlls\player.h(224) : error C2501: 'EHANDLE' : missing storage-class or type specifiers
+..\dlls\player.h(224) : error C2501: 'm_pTank' : missing storage-class or type specifiers
+..\dlls\player.h(227) : error C2146: syntax error : missing ';' before identifier 'm_fNoPlayerSound'
+..\dlls\player.h(227) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(227) : error C2501: 'm_fNoPlayerSound' : missing storage-class or type specifiers
+..\dlls\player.h(228) : error C2146: syntax error : missing ';' before identifier 'm_fLongJump'
+..\dlls\player.h(228) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(228) : error C2501: 'm_fLongJump' : missing storage-class or type specifiers
+..\dlls\player.h(239) : error C2143: syntax error : missing ';' before '*'
+..\dlls\player.h(239) : error C2501: 'CBasePlayerItem' : missing storage-class or type specifiers
+..\dlls\player.h(239) : error C2501: 'm_rgpPlayerItems' : missing storage-class or type specifiers
+..\dlls\player.h(240) : error C2143: syntax error : missing ';' before '*'
+..\dlls\player.h(240) : error C2501: 'CBasePlayerItem' : missing storage-class or type specifiers
+..\dlls\player.h(240) : error C2501: 'm_pActiveItem' : missing storage-class or type specifiers
+..\dlls\player.h(241) : error C2143: syntax error : missing ';' before '*'
+..\dlls\player.h(241) : error C2501: 'CBasePlayerItem' : missing storage-class or type specifiers
+..\dlls\player.h(241) : error C2501: 'm_pClientActiveItem' : missing storage-class or type specifiers
+..\dlls\player.h(242) : error C2143: syntax error : missing ';' before '*'
+..\dlls\player.h(242) : error C2501: 'CBasePlayerItem' : missing storage-class or type specifiers
+..\dlls\player.h(242) : error C2501: 'm_pLastItem' : missing storage-class or type specifiers
+..\dlls\player.h(268) : error C2061: syntax error : identifier 'TraceResult'
+..\dlls\player.h(274) : error C2146: syntax error : missing ';' before identifier 'IsSneaking'
+..\dlls\player.h(274) : error C2433: 'BOOL' : 'virtual' not permitted on data declarations
+..\dlls\player.h(274) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(274) : warning C4183: 'IsSneaking': member function definition looks like a ctor, but name does not match enclosing class
+..\dlls\player.h(275) : error C2146: syntax error : missing ';' before identifier 'IsAlive'
+..\dlls\player.h(275) : error C2433: 'BOOL' : 'virtual' not permitted on data declarations
+..\dlls\player.h(275) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(275) : warning C4183: 'IsAlive': member function definition looks like a ctor, but name does not match enclosing class
+..\dlls\player.h(276) : error C2146: syntax error : missing ';' before identifier 'IsPlayer'
+..\dlls\player.h(276) : error C2433: 'BOOL' : 'virtual' not permitted on data declarations
+..\dlls\player.h(276) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(276) : warning C4183: 'IsPlayer': member function definition looks like a ctor, but name does not match enclosing class
+..\dlls\player.h(278) : error C2146: syntax error : missing ';' before identifier 'IsNetClient'
+..\dlls\player.h(278) : error C2433: 'BOOL' : 'virtual' not permitted on data declarations
+..\dlls\player.h(278) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(278) : warning C4183: 'IsNetClient': member function definition looks like a ctor, but name does not match enclosing class
+..\dlls\player.h(280) : error C2061: syntax error : identifier 'CSave'
+..\dlls\player.h(281) : error C2061: syntax error : identifier 'CRestore'
+..\dlls\player.h(284) : error C2061: syntax error : identifier 'BOOL'
+..\dlls\player.h(285) : error C2146: syntax error : missing ';' before identifier 'SwitchWeapon'
+..\dlls\player.h(285) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(285) : error C2061: syntax error : identifier 'CBasePlayerItem'
+..\dlls\player.h(290) : error C2146: syntax error : missing ';' before identifier 'm_playerSaveData'
+..\dlls\player.h(290) : error C2501: 'm_playerSaveData' : missing storage-class or type specifiers
+..\dlls\player.h(295) : error C2146: syntax error : missing ';' before identifier 'IsOnLadder'
+..\dlls\player.h(295) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(296) : error C2146: syntax error : missing ';' before identifier 'FlashlightIsOn'
+..\dlls\player.h(296) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(315) : error C2146: syntax error : missing ';' before identifier 'AddPlayerItem'
+..\dlls\player.h(315) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(315) : error C2061: syntax error : identifier 'CBasePlayerItem'
+..\dlls\player.h(316) : error C2146: syntax error : missing ';' before identifier 'RemovePlayerItem'
+..\dlls\player.h(316) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(316) : error C2061: syntax error : identifier 'CBasePlayerItem'
+..\dlls\player.h(318) : error C2146: syntax error : missing ';' before identifier 'HasPlayerItem'
+..\dlls\player.h(318) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(318) : error C2061: syntax error : identifier 'CBasePlayerItem'
+..\dlls\player.h(319) : error C2146: syntax error : missing ';' before identifier 'HasNamedPlayerItem'
+..\dlls\player.h(319) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(320) : error C2146: syntax error : missing ';' before identifier 'HasWeapons'
+..\dlls\player.h(320) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(328) : error C2061: syntax error : identifier 'BOOL'
+..\dlls\player.h(343) : error C2146: syntax error : missing ';' before identifier 'FBecomeProne'
+..\dlls\player.h(343) : error C2501: 'BOOL' : missing storage-class or type specifiers
+..\dlls\player.h(401) : error C2146: syntax error : missing ';' before identifier 'm_hObserverTarget'
+..\dlls\player.h(401) : error C2501: 'EHANDLE' : missing storage-class or type specifiers
+..\dlls\player.h(401) : error C2501: 'm_hObserverTarget' : missing storage-class or type specifiers
+..\dlls\player.h(435) : error C2146: syntax error : missing ';' before identifier 'gInitHUD'
+..\dlls\player.h(435) : fatal error C1004: unexpected end of file found
+sdk_w_glock.cpp
+sdk_w_m16.cpp
+sdk_w_mac10.cpp
+sdk_w_matrix.cpp
+sdk_w_mp5.cpp
+sdk_w_p228.cpp
+sdk_w_sg550.cpp
+sdk_w_sg552.cpp
+sdk_w_tmp.cpp
+sdk_w_ump45.cpp
+Error executing cl.exe.
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /o".\Release/cl_dll.bsc" 
+.\Release\ammo.sbr
+.\Release\ammo_secondary.sbr
+.\Release\ammohistory.sbr
+.\Release\battery.sbr
+.\Release\cdll_int.sbr
+.\Release\com_weapons.sbr
+.\Release\death.sbr
+.\Release\demo.sbr
+.\Release\entity.sbr
+.\Release\ev_common.sbr
+.\Release\events.sbr
+.\Release\flashlight.sbr
+.\Release\GameStudioModelRenderer.sbr
+.\Release\geiger.sbr
+.\Release\health.sbr
+.\Release\hud.sbr
+.\Release\hud_msg.sbr
+.\Release\hud_redraw.sbr
+.\Release\hud_servers.sbr
+.\Release\hud_update.sbr
+.\Release\in_camera.sbr
+.\Release\input.sbr
+.\Release\inputw32.sbr
+.\Release\menu.sbr
+.\Release\message.sbr
+.\Release\parsemsg.sbr
+.\Release\pm_debug.sbr
+.\Release\pm_math.sbr
+.\Release\pm_shared.sbr
+.\Release\saytext.sbr
+.\Release\sdk_c_radar.sbr
+.\Release\sdk_e_main.sbr
+.\Release\sdk_e_menu.sbr
+.\Release\sdk_gui_actions.sbr
+.\Release\sdk_gui_admin.sbr
+.\Release\sdk_gui_mapvote.sbr
+.\Release\sdk_gui_stats.sbr
+.\Release\sdk_hud.sbr
+.\Release\sdk_hud_money.sbr
+.\Release\sdk_u_mp3.sbr
+.\Release\status_icons.sbr
+.\Release\statusbar.sbr
+.\Release\studio_util.sbr
+.\Release\StudioModelRenderer.sbr
+.\Release\text_message.sbr
+.\Release\train.sbr
+.\Release\tri.sbr
+.\Release\util.sbr
+.\Release\vgui_ConsolePanel.sbr
+.\Release\vgui_ControlConfigPanel.sbr
+.\Release\vgui_CustomObjects.sbr
+.\Release\vgui_int.sbr
+.\Release\vgui_SchemeManager.sbr
+.\Release\vgui_ScorePanel.sbr
+.\Release\vgui_ServerBrowser.sbr
+.\Release\vgui_TeamFortressViewport.sbr
+.\Release\view.sbr
+.\Release\ev_hldm.sbr
+.\Release\hl_baseentity.sbr
+.\Release\hl_events.sbr
+.\Release\hl_objects.sbr
+.\Release\hl_weapons.sbr
+.\Release\sdk_w_ak47.sbr
+.\Release\sdk_w_aug.sbr
+.\Release\sdk_w_deagle.sbr
+.\Release\sdk_w_events.sbr
+.\Release\sdk_w_glock.sbr
+.\Release\sdk_w_m16.sbr
+.\Release\sdk_w_mac10.sbr
+.\Release\sdk_w_matrix.sbr
+.\Release\sdk_w_mp5.sbr
+.\Release\sdk_w_p228.sbr
+.\Release\sdk_w_sg550.sbr
+.\Release\sdk_w_sg552.sbr
+.\Release\sdk_w_tmp.sbr
+.\Release\sdk_w_ump45.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP29.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Release\sdk_w_events.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+client.dll - 78 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
