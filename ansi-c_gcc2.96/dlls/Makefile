@@ -4,13 +4,14 @@
 # April 2000 by Leon Hartwig (jehannum@planethalflife.com)
 #
 
-# May 2015 customized by Swamp Dog for GangWars Mod
+# May 2015-July 2015 customized by Swamp Dog for GangWars Mod
 DLLNAME=mp
 
 ARCH=i386
 
-#make sure this is the correct compiler for your system
-CC=gcc
+# make sure this is the correct compiler for your system (debian 4.0 "etch") File builds, but with bugs
+CC=gcc-2.95
+LD=gcc-2.95
 
 DLL_SRCDIR=.
 WPN_SHARED_SRCDIR=./wpn_shared
@@ -29,25 +30,31 @@ PM_SHARED_OBJDIR=$(PM_SHARED_SRCDIR)/obj
 ## try all settings
 ## BASE_CFLAGS=-Dstricmp=strcasecmp -D_strnicmp=strncasecmp -Dstrnicmp=strncasecmp -DLINUX -DVALVE_DLL -DQUIVER -DVOXEL -DQUAKE2 -DDEDICATED -DSWDS -D_STLP_USE_GLIBC -DUSE_OLDAUTH 
 
-## doesn't build sdk_c_logic.cpp:
+## working settings, but round draw loop still runs (CheckRoundEnd() in gamerules.h?)
 BASE_CFLAGS=-Dstricmp=strcasecmp -D_strnicmp=strncasecmp -Dstrnicmp=strncasecmp -DLINUX -DVALVE_DLL -DQUIVER -DVOXEL -DQUAKE2
 ## may not need -DAVH_SERVER , may not need -DSWDS ? , may not need -D_STLP_USE_GLIBC ? , may not need -DUSE_OLDAUTH ?
 
 
 ## safe optimization
-## CFLAGS=$(BASE_CFLAGS) -w -m486 -O1
 
-## full optimization
-CFLAGS=$(BASE_CFLAGS) -w -m486 -O2 -ffast-math -funroll-loops \
-	-fomit-frame-pointer -fexpensive-optimizations -malign-loops=2 \
-	-malign-jumps=2 -malign-functions=2
+## -m486 deprecated, use -mcpu-i486
+## CFLAGS=$(BASE_CFLAGS) -w -m486 -O1
+CFLAGS=$(BASE_CFLAGS) -w -mcpu=i486 -O1
+
+## full optimization ? Need to see Natural Selection 1 source code
+
+## CFLAGS=$(BASE_CFLAGS) -w -m486 -O2 -ffast-math -funroll-loops \
+##	-fomit-frame-pointer -fexpensive-optimizations -malign-loops=2 \
+##	-malign-jumps=2 -malign-functions=2
 
 ## use these when debugging 
 ## CFLAGS=$(BASE_CFLAGS) -g
 
 INCLUDEDIRS=-I. -I../engine -I../common -I../pm_shared
 
-LDFLAGS=/usr/lib/gcc-lib/i386-redhat-linux/2.96/libstdc++.a
+LDFLAGS=
+## Don't use LDFLAGS now? Doesn't strip file. Does not work with static linking??
+## LDFLAGS=/usr/lib/gcc-lib/i486-linux-gnu/2.95.4/libstdc++.a -lm
 
 SHLIBEXT=so
 SHLIBCFLAGS=-fPIC
